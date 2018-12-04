@@ -1,4 +1,4 @@
-FROM php:7.0.4-fpm
+FROM php:7.0-fpm
 RUN apt-get update -y 
 
 RUN apt-get install -y \
